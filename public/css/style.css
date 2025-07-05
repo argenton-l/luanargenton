@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #11072b;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  margin: 40px 0;
+  color: #11072b;
+}
+.menu {
+  display: flex;
+  border: #333 solid 1px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 12px 0;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  gap: 12px;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #bababd;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 12px;
+  transition: background-color 0.3s;
+}
+
+.menu a:hover {
+  background-color: #bdb3ec;
+  color: #11072b;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.hero .main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.hero .heroTxt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+.hero .heroTxt h1 {
+  font-size: 2.5em;
+  color: #333333e8;
+  margin: 0;
+}
+
+.hero .heroTxt h2 {
+  font-size: 1.5em;
+  color: #333333e8;
+  margin: 5px 0;
+}
+
+.hero .heroTxt p {
+  font-size: 1em;
+  color: #333333e8;
+  margin: 10px 0;
+}
+
+.hero .img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 0px 100px 0px 0px;
+}
+
+.hero .img img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 600px;
+  border-radius: 50%;
+  border: 5px solid #11072b;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  object-fit: cover;
+  transition: transform 1s;
+}
+
+.img img:hover {
+  transform: scale(1.1);
+}

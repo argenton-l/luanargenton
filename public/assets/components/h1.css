@@ -1,0 +1,50 @@
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  color: #333333e8;
+  font-size: 2.5em;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+h1:hover {
+  color: #11072b;
+}
+h1:active {
+  color: #bdb3ec;
+}
+h1:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #bdb3ec;
+}
+h1::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #bdb3ec;
+  margin-bottom: 10px;
+}
+h1::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #bdb3ec;
+  margin-top: 10px;
+}
+h1:hover::before,
+h1:hover::after {
+  background-color: #11072b;
+}
+h1:active::before,
+h1:active::after {
+  background-color: #bdb3ec;
+}
+h1:focus::before,
+h1:focus::after {
+  background-color: #bdb3ec;
+  box-shadow: 0 0 0 2px #bdb3ec;
+}

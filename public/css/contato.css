@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #11072b;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  margin: 40px 0;
+  color: #11072b;
+}
+.menu {
+  display: flex;
+  border: #333 solid 1px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 12px 0;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 12px;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #bababd;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 12px;
+  transition: background-color 0.3s;
+}
+
+.menu a:hover {
+  background-color: #bdb3ec;
+  color: #11072b;
+}
+
+.conteudo-contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  height: 400px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #331d69;
+  box-shadow: #11072b 0px 4px 12px;
+}
+
+.paragrafo-contato {
+  font-family: "Roboto";
+  font-size: 42px;
+  line-height: 2;
+  color: #333333e8;
+  margin-bottom: 20px;
+}
+
+.formulario-contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  padding: 20px;
+  width: 100%;
+  height: 500px;
+  gap: 12px;
+}
+
+.formulario-contato .campos {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 12px;
+  box-sizing: border-box;
+}
+.formulario-contato .nome {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario-contato .email {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario-contato input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bababd;
+  border-radius: 12px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+  box-shadow: #ababad 0px 1px 1px;
+}
+
+.formulario-contato .mensagem-label,
+.formulario-contato .nome-label,
+.formulario-contato .email-label {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #bababd;
+  margin-bottom: 8px;
+}
+
+.formulario-contato .mensagem {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.mensagem textarea {
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+  box-shadow: #8c8c8f 0px 1px 1px;
+  border: 1px solid #bababd;
+  border-radius: 12px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.formulario-contato button {
+  padding: 10px 15px;
+  background-color: #bdb3ec;
+  box-shadow: #454546 0px 1px 1px;
+  color: #11072b;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  width: 30%;
+  transition: background-color 0.3s ease;
+}
+
+.formulario-contato button:hover {
+  background-color: #333333e8;
+  color: #bababd;
+  box-shadow: #11072b 0px 1px 1px;
+}
